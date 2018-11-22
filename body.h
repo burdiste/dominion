@@ -1,9 +1,9 @@
 #ifndef BODY_H
 #define BODY_H
+
 #include "karta.h"
 
-
-class body : public karta
+class body : virtual public karta
 {
     public:
         body();
@@ -12,7 +12,7 @@ class body : public karta
 
     protected:
         int m_bodova_hodnota;
-    private:
+
 };
 
 #endif // BODY_H

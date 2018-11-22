@@ -32,7 +32,19 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="akce.cpp" />
+		<Unit filename="akce.h" />
+		<Unit filename="body.cpp" />
+		<Unit filename="body.h" />
+		<Unit filename="karta.cpp" />
+		<Unit filename="karta.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="medak.cpp" />
+		<Unit filename="medak.h" />
+		<Unit filename="penize.cpp" />
+		<Unit filename="penize.h" />
+		<Unit filename="slechtici.cpp" />
+		<Unit filename="slechtici.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

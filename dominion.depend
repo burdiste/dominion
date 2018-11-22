@@ -47,3 +47,52 @@
 	"body.h"
 	"akce.h"
 
+1542922555 source:d:\code\git_workspace\dev1\akce.cpp
+	"akce.h"
+	<string>
+
+1542922632 d:\code\git_workspace\dev1\akce.h
+	"karta.h"
+
+1542922601 d:\code\git_workspace\dev1\karta.h
+	<string>
+
+1542919666 source:d:\code\git_workspace\dev1\body.cpp
+	"body.h"
+
+1542922608 d:\code\git_workspace\dev1\body.h
+	"karta.h"
+
+1542919666 source:d:\code\git_workspace\dev1\karta.cpp
+	"karta.h"
+
+1542922397 source:d:\code\git_workspace\dev1\main.cpp
+	<iostream>
+	<vector>
+	"karta.h"
+	"penize.h"
+	"akce.h"
+	"body.h"
+	"medak.h"
+	"slechtici.h"
+
+1542919666 d:\code\git_workspace\dev1\penize.h
+	"karta.h"
+
+1542919666 d:\code\git_workspace\dev1\medak.h
+	"penize.h"
+
+1542920759 d:\code\git_workspace\dev1\slechtici.h
+	"body.h"
+	"akce.h"
+
+1542919666 source:d:\code\git_workspace\dev1\medak.cpp
+	"medak.h"
+
+1542919666 source:d:\code\git_workspace\dev1\penize.cpp
+	"penize.h"
+
+1542922513 source:d:\code\git_workspace\dev1\slechtici.cpp
+	"slechtici.h"
+	<iostream>
+
