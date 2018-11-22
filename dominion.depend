@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1542910765 source:c:\stepan\programovani\dominion\main.cpp
+	<iostream>
+	"karta.h"
+	"penize.h"
+	"akce.h"
+	"body.h"
+	"medak.h"
+	"slechtici.h"
+
+1542913868 c:\stepan\programovani\dominion\karta.h
+	<string>
+
+1542908265 source:c:\stepan\programovani\dominion\karta.cpp
+	"karta.h"
+
+1542898749 source:c:\stepan\programovani\dominion\penize.cpp
+	"penize.h"
+
+1542908910 c:\stepan\programovani\dominion\penize.h
+	"karta.h"
+
+1542899662 source:c:\stepan\programovani\dominion\akce.cpp
+	"akce.h"
+	<string>
+
+1542911116 c:\stepan\programovani\dominion\akce.h
+	"karta.h"
+	<string>
+
+1542900353 source:c:\stepan\programovani\dominion\body.cpp
+	"body.h"
+
+1542900515 c:\stepan\programovani\dominion\body.h
+	"karta.h"
+
+1542907922 c:\stepan\programovani\dominion\medak.h
+	"penize.h"
+
+1542908865 source:c:\stepan\programovani\dominion\medak.cpp
+	"medak.h"
+
+1542909353 source:c:\stepan\programovani\dominion\slechtici.cpp
+	"slechtici.h"
+
+1542913838 c:\stepan\programovani\dominion\slechtici.h
+	"body.h"
+	"akce.h"
+
