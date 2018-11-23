@@ -1,18 +1,18 @@
 #ifndef AKCE_H
 #define AKCE_H
+
 #include "karta.h"
-#include <string>
+
 using namespace std;
 
-class akce : public karta
+class akce : virtual public karta
 {
     public:
         akce();
         virtual ~akce();
-        string do_sth();
-    protected:
-        string m_do_sth;
-    private:
+
+        virtual void do_sth() = 0;
+
 };
 
 #endif // AKCE_H
