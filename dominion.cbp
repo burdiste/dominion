@@ -32,19 +32,21 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="akce.cpp" />
-		<Unit filename="akce.h" />
-		<Unit filename="body.cpp" />
-		<Unit filename="body.h" />
-		<Unit filename="karta.cpp" />
-		<Unit filename="karta.h" />
+		<Unit filename="karty/akce.cpp" />
+		<Unit filename="karty/akce.h" />
+		<Unit filename="karty/body.cpp" />
+		<Unit filename="karty/body.h" />
+		<Unit filename="karty/karta.cpp" />
+		<Unit filename="karty/karta.h" />
+		<Unit filename="karty/medak.cpp" />
+		<Unit filename="karty/medak.h" />
+		<Unit filename="karty/penize.cpp" />
+		<Unit filename="karty/penize.h" />
+		<Unit filename="karty/provincie.cpp" />
+		<Unit filename="karty/provincie.h" />
+		<Unit filename="karty/slechtici.cpp" />
+		<Unit filename="karty/slechtici.h" />
 		<Unit filename="main.cpp" />
-		<Unit filename="medak.cpp" />
-		<Unit filename="medak.h" />
-		<Unit filename="penize.cpp" />
-		<Unit filename="penize.h" />
-		<Unit filename="slechtici.cpp" />
-		<Unit filename="slechtici.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
