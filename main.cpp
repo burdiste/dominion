@@ -2,15 +2,7 @@
 #include <vector>
 
 #include "karty/karta.h"
-#include "karty/penize.h"
-#include "karty/akce.h"
-#include "karty/body.h"
-#include "karty/medak.h"
-#include "karty/stribrnak.h"
-#include "karty/zlatak.h"
-#include "karty/slechtici.h"
-#include "karty/vevodstvi.h"
-#include "karty/provincie.h"
+#include "karty/karty.h"
 
 using namespace std;
 
@@ -28,20 +20,20 @@ int main()
         cout << "Karta: " << (*it)->vratJmenoKarty() << endl;
         cout << "  stoji " << (*it)->vratCenaKarty() << endl;
 
-        if (auto kartaPenez = dynamic_cast<penize*>(*it) )
+        if (auto karta = dynamic_cast<kartaPenez*>(*it) )
         {
-            cout << "  dava " << kartaPenez->vratPocetPenez() << " penez na nakup" << endl;
+            cout << "  dava " << karta->vratPocetPenez() << " penez na nakup" << endl;
         }
 
-        if ( auto kartaBodu = dynamic_cast<body*>(*it) )
+        if ( auto karta = dynamic_cast<kartaBodu*>(*it) )
         {
-            cout << "  dava " << kartaBodu->vratBodovaHodnota() << " viteznych bodu" << endl;
+            cout << "  dava " << karta->vratBodovaHodnota() << " viteznych bodu" << endl;
         }
 
-        if (auto kartaAkce = dynamic_cast<akce*>(*it) )
+        if (auto karta = dynamic_cast<kartaAkce*>(*it) )
         {
             cout << "  zahrej kartu: ";
-            kartaAkce->doSth();
+            karta->doSth();
         }
 
         delete (*it);
