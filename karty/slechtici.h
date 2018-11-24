@@ -11,7 +11,7 @@ class slechtici : public body, public akce
         slechtici();
         virtual ~slechtici();
 
-        virtual void do_sth();
+        virtual void doSth();
 
     protected:
 

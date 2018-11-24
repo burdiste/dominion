@@ -10,7 +10,7 @@ body::~body()
     //dtor
 }
 
-int body::vrat_bodova_hodnota()
+int body::vratBodovaHodnota()
 {
-    return m_bodova_hodnota;
+    return mBodovaHodnota;
 }

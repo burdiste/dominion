@@ -7,14 +7,14 @@ class karta
 {
     public:
         karta();
-        karta(int cena_karty, string jmeno_karty);
+        karta(int cenaKarty, string jmenoKarty);
         virtual ~karta();
 
-        string vrat_jmeno_karty();
-        int vrat_cena_karty();
+        string vratJmenoKarty();
+        int vratCenaKarty();
     protected:
-        string m_jmeno_karty;
-        int    m_cena_karty;
+        string mJmenoKarty;
+        int    mCenaKarty;
 };
 
 #endif // KARTA_H

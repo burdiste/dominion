@@ -11,7 +11,7 @@ class akce : virtual public karta
         akce();
         virtual ~akce();
 
-        virtual void do_sth() = 0;
+        virtual void doSth() = 0;
 
 };
 

@@ -10,7 +10,7 @@ penize::~penize()
     //dtor
 }
 
-int penize::vrat_pocet_penez()
+int penize::vratPocetPenez()
 {
-    return m_pocet_penez;
+    return mPocetPenez;
 }

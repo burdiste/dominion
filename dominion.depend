@@ -1,12 +1,15 @@
 # depslib dependency file v1.0
-1542910765 source:c:\stepan\programovani\dominion\main.cpp
+1543073788 source:c:\stepan\programovani\dominion\main.cpp
 	<iostream>
-	"karta.h"
-	"penize.h"
-	"akce.h"
-	"body.h"
-	"medak.h"
-	"slechtici.h"
+	<vector>
+	"karty/karta.h"
+	"karty/penize.h"
+	"karty/akce.h"
+	"karty/body.h"
+	"karty/medak.h"
+	"karty/slechtici.h"
+	"karty/vevodstvi.h"
+	"karty/provincie.h"
 
 1542913868 c:\stepan\programovani\dominion\karta.h
 	<string>
@@ -95,4 +98,67 @@
 1542922513 source:d:\code\git_workspace\dev1\slechtici.cpp
 	"slechtici.h"
 	<iostream>
+
+1542997023 source:c:\stepan\programovani\dominion\karty\akce.cpp
+	"akce.h"
+	<string>
+
+1542997023 c:\stepan\programovani\dominion\karty\akce.h
+	"karta.h"
+
+1542997023 c:\stepan\programovani\dominion\karty\karta.h
+	<string>
+
+1542997023 source:c:\stepan\programovani\dominion\karty\body.cpp
+	"body.h"
+
+1542997023 c:\stepan\programovani\dominion\karty\body.h
+	"karta.h"
+
+1542999594 source:c:\stepan\programovani\dominion\karty\karta.cpp
+	"karta.h"
+
+1542997023 source:c:\stepan\programovani\dominion\karty\medak.cpp
+	"medak.h"
+
+1542997023 c:\stepan\programovani\dominion\karty\medak.h
+	"penize.h"
+
+1542997023 c:\stepan\programovani\dominion\karty\penize.h
+	"karta.h"
+
+1542997023 source:c:\stepan\programovani\dominion\karty\penize.cpp
+	"penize.h"
+
+1542997023 source:c:\stepan\programovani\dominion\karty\slechtici.cpp
+	"slechtici.h"
+	<iostream>
+
+1542997023 c:\stepan\programovani\dominion\karty\slechtici.h
+	"body.h"
+	"akce.h"
+
+1543003310 source:c:\stepan\programovani\dominion\karty\provincie.cpp
+	"provincie.h"
+
+1543003327 c:\stepan\programovani\dominion\karty\provincie.h
+	"body.h"
+
+1543073720 source:c:\stepan\programovani\dominion\karty\vevodstvi.cpp
+	"vevodstvi.h"
+
+1543073710 c:\stepan\programovani\dominion\karty\vevodstvi.h
+	"body.h"
+
+1543075571 source:c:\stepan\programovani\dominion\karty\zlatak.cpp
+	"zlatak.h"
+
+1543075571 c:\stepan\programovani\dominion\karty\zlatak.h
+	"penize.h"
+
+1543074000 source:c:\stepan\programovani\dominion\karty\stribrnak.cpp
+	"stribrnak.h"
+
+1543075592 c:\stepan\programovani\dominion\karty\stribrnak.h
+	"penize.h"
 

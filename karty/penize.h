@@ -8,10 +8,10 @@ class penize : public karta
     public:
         penize();
         virtual ~penize();
-        int vrat_pocet_penez();
+        int vratPocetPenez();
 
     protected:
-        int m_pocet_penez;
+        int mPocetPenez;
     private:
 };
 
