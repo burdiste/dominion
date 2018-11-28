@@ -12,10 +12,10 @@ karta::~karta()
 
 int karta::vratCenaKarty()
 {
-    return mCenaKarty;
+    return m_cenaKarty;
 }
 
 string karta::vratJmenoKarty()
 {
-    return mJmenoKarty;
+    return m_jmenoKarty;
 }

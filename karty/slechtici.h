@@ -1,11 +1,11 @@
 #ifndef SLECHTICI_H
 #define SLECHTICI_H
 
-#include "body.h"
-#include "akce.h"
+#include "kartaBodu.h"
+#include "kartaAkci.h"
 
 
-class slechtici : public body, public akce
+class slechtici : public kartaBodu, public kartaAkci
 {
     public:
         slechtici();

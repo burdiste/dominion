@@ -30,7 +30,7 @@ int main()
             cout << "  dava " << karta->vratBodovaHodnota() << " viteznych bodu" << endl;
         }
 
-        if (auto karta = dynamic_cast<kartaAkce*>(*it) )
+        if (auto karta = dynamic_cast<kartaAkci*>(*it) )
         {
             cout << "  zahrej kartu: ";
             karta->doSth();

@@ -36,26 +36,16 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="karty/akce.cpp" />
-		<Unit filename="karty/akce.h" />
-		<Unit filename="karty/body.cpp" />
-		<Unit filename="karty/body.h" />
 		<Unit filename="karty/karta.cpp" />
 		<Unit filename="karty/karta.h" />
-		<Unit filename="karty/medak.cpp" />
-		<Unit filename="karty/medak.h" />
-		<Unit filename="karty/penize.cpp" />
-		<Unit filename="karty/penize.h" />
-		<Unit filename="karty/provincie.cpp" />
-		<Unit filename="karty/provincie.h" />
+		<Unit filename="karty/kartaAkci.h" />
+		<Unit filename="karty/kartaBodu.cpp" />
+		<Unit filename="karty/kartaBodu.h" />
+		<Unit filename="karty/kartaPenez.cpp" />
+		<Unit filename="karty/kartaPenez.h" />
+		<Unit filename="karty/karty.h" />
 		<Unit filename="karty/slechtici.cpp" />
 		<Unit filename="karty/slechtici.h" />
-		<Unit filename="karty/stribrnak.cpp" />
-		<Unit filename="karty/stribrnak.h" />
-		<Unit filename="karty/vevodstvi.cpp" />
-		<Unit filename="karty/vevodstvi.h" />
-		<Unit filename="karty/zlatak.cpp" />
-		<Unit filename="karty/zlatak.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />

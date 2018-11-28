@@ -7,9 +7,9 @@ using namespace std;
 slechtici::slechtici()
 {
     //ctor
-    mJmenoKarty = "slechtici";
-    mCenaKarty = 6;
-    mBodovaHodnota = 2;
+    m_jmenoKarty = "slechtici";
+    m_cenaKarty = 6;
+    m_bodovaHodnota = 2;
 }
 
 slechtici::~slechtici()
