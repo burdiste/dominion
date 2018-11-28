@@ -13,8 +13,8 @@ class karta
         string vratJmenoKarty();
         int vratCenaKarty();
     protected:
-        string mJmenoKarty;
-        int    mCenaKarty;
+        string m_jmenoKarty;
+        int    m_cenaKarty;
 };
 
 #endif // KARTA_H
