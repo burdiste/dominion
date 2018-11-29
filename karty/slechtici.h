@@ -13,9 +13,6 @@ class slechtici : public kartaBodu, public kartaAkci
 
         virtual void doSth();
 
-    protected:
-
-    private:
 };
 
 #endif // SLECHTICI_H
