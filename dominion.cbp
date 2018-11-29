@@ -15,6 +15,8 @@
 					<Add option="-g" />
 					<Add directory="karty" />
 					<Add directory="karty/" />
+					<Add directory="baliky" />
+					<Add directory="/" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -26,6 +28,7 @@
 					<Add option="-O2" />
 					<Add directory="karty" />
 					<Add directory="karty/" />
+					<Add directory="baliky" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -36,6 +39,8 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="baliky/balik.cpp" />
+		<Unit filename="baliky/balik.h" />
 		<Unit filename="karty/karta.cpp" />
 		<Unit filename="karty/karta.h" />
 		<Unit filename="karty/kartaAkci.h" />
