@@ -1,22 +1,39 @@
-#include "kartaBodu.h"
+#ifndef BODY_H
+#define BODY_H
 
-statek::statek()
-{
-    m_jmenoKarty = "statek";
-    m_cenaKarty = 2;
-    m_bodovaHodnota = 1;
-}
+#include "karta.h"
 
-vevodstvi::vevodstvi()
+class kartaBodu : virtual public karta
 {
-    m_jmenoKarty = "vevodstvi";
-    m_cenaKarty = 5;
-    m_bodovaHodnota = 3;
-}
+    public:
+        kartaBodu(){}
+        virtual ~kartaBodu(){}
+        int vratBodovaHodnota(){return m_bodovaHodnota;}
 
-provincie::provincie()
+    protected:
+        int m_bodovaHodnota;
+};
+
+class statek : public kartaBodu
 {
-    m_jmenoKarty = "provincie";
-    m_cenaKarty = 8;
-    m_bodovaHodnota = 6;
-}
+    public:
+        statek();
+        virtual ~statek(){}
+};
+
+class vevodstvi : public kartaBodu
+{
+    public:
+        vevodstvi();
+        virtual ~vevodstvi(){}
+};
+
+class provincie : public kartaBodu
+{
+    public:
+        provincie();
+        virtual ~provincie(){}
+};
+
+
+#endif // BODY_H
