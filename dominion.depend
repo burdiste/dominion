@@ -162,14 +162,17 @@
 1543075592 c:\stepan\programovani\dominion\karty\stribrnak.h
 	"penize.h"
 
-1543437018 source:d:\programovani\dominion-master\main.cpp
+1543449612 source:d:\programovani\dominion-master\main.cpp
 	<iostream>
 	<vector>
 	"karty/karta.h"
 	"karty/karty.h"
+	"baliky/balik.h"
 
-1543435629 d:\programovani\dominion-master\karty\karta.h
+1543449650 d:\programovani\dominion-master\karty\karta.h
 	<string>
+	<vector>
+	<iostream>
 
 1543436986 source:d:\programovani\dominion-master\karty\body.cpp
 	"kartaBodu.h"
@@ -177,8 +180,10 @@
 1543436445 d:\programovani\dominion-master\karty\body.h
 	"karta.h"
 
-1543435629 source:d:\programovani\dominion-master\karty\karta.cpp
+1543449764 source:d:\programovani\dominion-master\karty\karta.cpp
 	"karta.h"
+	"karty.h"
+	<vector>
 
 1543436079 source:d:\programovani\dominion-master\karty\penize.cpp
 	"penize.h"
@@ -190,7 +195,7 @@
 	"slechtici.h"
 	<iostream>
 
-1543436986 d:\programovani\dominion-master\karty\slechtici.h
+1543440700 d:\programovani\dominion-master\karty\slechtici.h
 	"kartaBodu.h"
 	"kartaAkci.h"
 
@@ -203,18 +208,25 @@
 	"kartaPenez.h"
 	"slechtici.h"
 
-1543436770 d:\programovani\dominion-master\karty\kartapenez.h
+1543440735 d:\programovani\dominion-master\karty\kartapenez.h
 	"karta.h"
 
 1543436770 source:d:\programovani\dominion-master\karty\kartapenez.cpp
 	"kartaPenez.h"
 
-1543436986 d:\programovani\dominion-master\karty\kartabodu.h
+1543440735 d:\programovani\dominion-master\karty\kartabodu.h
 	"karta.h"
 
-1543436986 d:\programovani\dominion-master\karty\kartaakci.h
+1543440735 d:\programovani\dominion-master\karty\kartaakci.h
 	"karta.h"
 
 1543436986 source:d:\programovani\dominion-master\karty\kartabodu.cpp
 	"kartaBodu.h"
 
+1543449020 source:d:\programovani\dominion-master\baliky\balik.cpp
+	"balik.h"
+	<stdlib.h>
+
+1543448915 d:\programovani\dominion-master\baliky\balik.h
+	<vector>
+	"../karty/karta.h"

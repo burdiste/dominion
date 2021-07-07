@@ -12,7 +12,6 @@ class kartaPenez : public karta
 
     protected:
         int m_pocetPenez;
-    private:
 };
 
 class medak : public kartaPenez
